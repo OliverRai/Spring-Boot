@@ -60,6 +60,7 @@
 			<tr th:each="convidado : ${convidados}">
 				<td><span th:text="${convidado.nomeConvidado}"></span></td>
 				<td><span th:text="${convidado.rg}"></span></td>
+		 		<td><a th:href="${(#mvc.url('EC#deletarConvidado').arg(0, convidado.codigoconvidado)).build()}"><i class="material-icons left">delete</i></a></td>
 		 		
 			</tr>
 		</tbody>
