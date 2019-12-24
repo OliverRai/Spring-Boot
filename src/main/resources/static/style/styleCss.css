@@ -20,11 +20,20 @@
 .formEvento{
 	box-shadow: 0px 0px 5px grey;
 	padding-left: 15px;
-	padding-top: 3px;
+	padding-top: 5px;
 	margin-bottom: 30px;
 	padding-bottom: 10px;
 	margin-top: 10px;
 }
 .nav-wrapper{
-	background-color: grey;
+	background-color: #000080;
+}
+.brand-logo{
+	margin-left: 15px;
+}
+#btndel{
+	margin-left: 15px;
+}
+.aaa{
+	color: #e8eaf6;
 }
